@@ -5,11 +5,13 @@ import donorLogo from '../../assets/donor.png';
 import delivererLogo from '../../assets/deliverer.png';
 
 const { Meta } = Card;
+
+
 function RoleSelection() {
 
     return(
         <div className='card-container'>
-            <p className='card-header'>Select how you want to contribute</p>
+            <p className='card-header'>Choose how you want to contribute to the cause</p>
             <div className='card-grid'>
             <Card
                 hoverable

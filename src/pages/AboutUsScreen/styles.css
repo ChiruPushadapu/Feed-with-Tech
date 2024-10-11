@@ -1,0 +1,91 @@
+.about-us-wrapper {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    height: 100vh;
+    overflow-y: auto;
+    margin: 0; /* Remove any default margin */
+}
+
+.about-us-hero {
+    background: url('hero-image.jpg') center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px; /* Reduce padding to minimize gap */
+    margin-bottom: 20px; /* Reduce margin between hero and content */
+}
+
+.about-us-hero h1 {
+    font-size: 36px; /* Slightly reduce font size if needed */
+    font-weight: bold;
+    margin: 0;
+}
+
+.about-us-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px; /* Reduce padding inside the main container */
+}
+
+.about-section,
+.mission-section,
+.values-section,
+.team-section,
+.contact-section {
+    background-color: #f9f9f9;
+    padding: 20px; /* Reduce padding inside sections */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h2,
+.mission-section h2,
+.values-section h2,
+.team-section h2,
+.contact-section h2 {
+    font-size: 28px;
+    color: #1890ff;
+    margin-bottom: 10px; /* Reduce margin under headings */
+}
+
+.about-section p,
+.mission-section p,
+.team-section p,
+.contact-section p {
+    font-size: 18px;
+    color: #555;
+    margin: 0 0 10px; /* Add bottom margin only */
+}
+
+.values-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.values-section ul li {
+    font-size: 18px;
+    color: #666;
+    background: #e0f7fa;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section a {
+    color: #1890ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-section a:hover {
+    text-decoration: underline;
+}
+
+.highlight {
+    color: #097a13;
+    font-size: 28px;
+    font-weight: bold;
+}

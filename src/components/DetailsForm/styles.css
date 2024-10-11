@@ -1,11 +1,11 @@
-.register-container {
+.details-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-.register-box {
+.details-box {
     border: 1px solid grey;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
@@ -13,7 +13,7 @@
     padding-left: 40px;
     padding-right: 40px;
     width: 500px;
-    height: 500px;
+    height: 530px;
     font-weight: bold;
     margin-right: 20px;
 }
@@ -27,11 +27,7 @@
     font-weight: bold;
 }
 
-.login {
-    text-align: center;
-}
-
-h4 {
+h3 {
     margin-top: 5px;
 }
 
