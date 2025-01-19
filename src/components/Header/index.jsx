@@ -14,6 +14,10 @@ function Header(){
 
     const handleMenuClick = ({key}) => {
         setMenuVisible(false);
+        if(key == 'logout')
+        {
+            sessionStorage.clear();
+        }
         navigate(`/${key}`);
     }
 

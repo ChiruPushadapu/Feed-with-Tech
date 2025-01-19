@@ -3,7 +3,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import './styles.css';
 
-function FoodDeliverScreen() {
+function AvailableLocationsScreen() {
     return(
         <div>
             <Header />
@@ -12,4 +12,4 @@ function FoodDeliverScreen() {
     )
 }
 
-export default FoodDeliverScreen;
+export default AvailableLocationsScreen;
